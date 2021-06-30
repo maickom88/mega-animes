@@ -1,0 +1,71 @@
+name: mega_animes
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dartz: ^0.10.0-nullsafety.1
+  get: ^4.1.1
+  font_awesome_flutter: ^9.0.0
+  get_storage: ^2.0.2
+  # either_dart: ^0.1.0-nullsafety.1
+  web_scraper: ^0.1.4
+ 
+  google_mobile_ads: ^0.12.1+1
+  cupertino_icons: ^1.0.2
+  readmore: ^2.0.0
+  carousel_slider: ^4.0.0-nullsafety.0
+  palette_generator: ^0.3.0
+  extended_image: ^4.0.0
+  uuid_type: ^2.0.0
+  shimmer: ^2.0.0
+  easy_debounce: ^2.0.0
+  video_player: ^2.1.1
+  chewie: ^1.0.0
+  rive: ^0.7.3
+  rive_splash_screen: ^0.1.0
+  in_app_review: ^2.0.2
+  share: ^2.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_native_splash: ^1.1.7+1
+  flutter_launcher_icons: ^0.9.0
+    
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - lib/assets/images/
+    - lib/assets/icons/
+    - lib/assets/fonts/
+    - lib/assets/animations/
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: lib/assets/fonts/Montserrat-Regular.ttf
+        - asset: lib/assets/fonts/Montserrat-Bold.ttf
+          weight: 700
+        - asset: lib/assets/fonts/Montserrat-Thin.ttf
+          weight: 200
+        
+flutter_native_splash:
+  flutter_native_splash:
+  image: "lib/assets/images/logo.png"
+  color: "373435"
+  android_disable_fullscreen: true
+
+flutter_icons:
+  ios: false
+  android: true
+  image_path: "lib/assets/images/ic_launcher.png"
